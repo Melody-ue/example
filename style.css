@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  background-color: #f4f0f2;
+}
+
+#container {
+  width: 600px;
+  height: 600px;
+  margin: 60px auto;
+  background-color: #ead3d8;
+}
+
+.square,
+.circle,
+.star {
+  width: 150px;
+  height: 150px;
+  float: left;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.star {
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 56%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 56%,
+    2% 35%,
+    39% 35%
+  );
+}
+
+/* Morandi colour palette */
+.blue {
+  background-color: #8fa7bf;
+}
+
+.pink {
+  background-color: #e7bbc4;
+}
+
+.lilac {
+  background-color: #aaa8c4;
+}
+
+.sage {
+  background-color: #b9c6b1;
+}
+
+.rose {
+  background-color: #c998aa;
+}
+
+.mist {
+  background-color: #d8e5eb;
+}
+
+.cream {
+  background-color: #f7f1e8;
+}
